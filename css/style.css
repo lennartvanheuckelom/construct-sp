@@ -19,14 +19,14 @@ body {
 }
 
 a {
-  color: #F03861;
+  color: #ffcc00;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none;
-  color: #F03861;
+  color: #ffcc00;
 }
 a:focus, a:active {
   outline: none;
@@ -54,17 +54,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #f56f8d;
+  background: #ffcc00;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #f56f8d;
+  background: #ffcc00;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #f56f8d;
+  background: #ffcc00;
 }
 
 .btn {
@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #F03861;
+  background: #ffcc00;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #F03861;
+  background: #ffcc00;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -111,13 +111,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -15px;
   width: 30px;
   height: 3px;
-  background: #F03861;
+  background: #ffcc00;
 }
 
-header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
-#fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,
+header, #fh5co-intro-section, #fh5co-services-section,
+#fh5co-common-section,  #footer, #fh5co-contact-section,
 #fh5co-work-section {
   padding-bottom: 5em;
+}
+#fh5co-featured-work-section
+{
+    padding-bottom: 0em;
 }
 
 header {
@@ -145,7 +149,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #F03861;
+  background: #ffcc00;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -181,7 +185,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   top: -5px;
   right: -7px;
-  background: #F03861;
+  background: #ffcc00;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -418,6 +422,7 @@ header #fh5co-main-nav > ul li:first-child {
   opacity: 1;
 }
 
+
 .services-num {
   position: relative;
 }
@@ -475,6 +480,7 @@ header #fh5co-main-nav > ul li:first-child {
     padding-left: 80px;
   }
 }
+
 
 .fh5co-table,
 .fh5co-table-cell,
@@ -561,10 +567,11 @@ header #fh5co-main-nav > ul li:first-child {
 
 .fh5co-services {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 5em;
 }
 .fh5co-services .holder-section {
   padding-left: 100px;
+    padding-top: 20px;
 }
 .fh5co-services .holder-section h3 {
   margin-bottom: 8px;
@@ -595,12 +602,13 @@ header #fh5co-main-nav > ul li:first-child {
 }
 
 .fh5co-services-right {
-  margin-bottom: 40px;
+  margin-bottom: 5em;
   position: relative;
   text-align: right;
 }
 .fh5co-services-right .holder-section {
   padding-right: 100px;
+    padding-top: 20px;
 }
 .fh5co-services-right .holder-section h3 {
   margin-bottom: 8px;
