@@ -10,7 +10,7 @@ $(document).ready(function() {
     } else {
       $.ajax({
         method: 'POST',
-        url: '//formspree.io/lennart215@gmail.com',
+        url: '//formspree.io/construct-sp@telenet.be',
         data: $('#contact-form').serialize(),
         datatype: 'json'
       });
